@@ -1,0 +1,5 @@
+GET     /resource       [resources]
+GET     /resource/:id   {resource}
+POST    /resource       {new resource with id}
+PUT     /resource/:id   {resource after edit}
+DELETE  /resource/:id   {deleted resource}

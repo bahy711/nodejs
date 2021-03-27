@@ -1,0 +1,9 @@
+- JS refresher :
+    let and const vs var
+    arrow functions
+    object and array destructuring
+    array functions (map, filter)
+    hint about async JS
+- Node intro :
+    process.argv
+    modules

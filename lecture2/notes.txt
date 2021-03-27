@@ -1,0 +1,13 @@
+GET ..../users => all users
+GET ..../users/:id => single user 
+POST .../users => {user} => create user
+PUT ..../users/:id => {user} => edit user
+DELETE ./users/:id => delete
+
+============================================
+package manger => npm
+
+npm init
+npm install express
+create index.js
+=============================================

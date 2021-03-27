@@ -1,0 +1,37 @@
+<%- include("includes/head") %>
+    <% if(posts.length===0){%>
+        <h1>No posts</h1>
+        <% }else{ %>
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">title</th>
+                        <th scope="col">body</th>
+                        <th scope="col"></th>
+                        <th scope="col"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% for (let post of posts){ %>
+                        <tr>
+                            <td>
+                                <%= post.title %>
+                            </td>
+                            <td>
+                                <%= post.body %>
+                            </td>
+                           
+                            <td>
+                                <a href="<%= `/posts/edit/${post._id}` %>" class="btn btn-warning">edit</a>
+                            </td>
+                            <td>
+                                <a href="<%= `/posts/del/${post._id}` %>" class="btn btn-danger">del</a>
+                            </td>
+                        </tr>
+                        <% } %>
+                </tbody>
+            </table>
+            <% } %>
+                <a href="/" class="btn btn-primary">Back</a>
+                <%- include("includes/tail") %>

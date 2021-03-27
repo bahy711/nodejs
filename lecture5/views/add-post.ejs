@@ -1,0 +1,16 @@
+<%- include("includes/head") %>
+    <form method="POST" action="/posts/add">
+        
+        <div class="form-group">
+            <label>title</label>
+            <input name="title" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>body</label>
+            <input name="body" type="text" class="form-control">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <a href="/" class="btn btn-warning">Back</a>
+    </form>
+<%- include("includes/tail") %>

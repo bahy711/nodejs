@@ -1,0 +1,3 @@
+Create a new project 
+Use the npm by the command "npm i"
+install express package via "npm i express"

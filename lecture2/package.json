@@ -1,0 +1,22 @@
+{
+  "name": "mansoura",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrewNagyNemr/node-mansoura.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndrewNagyNemr/node-mansoura/issues"
+  },
+  "homepage": "https://github.com/AndrewNagyNemr/node-mansoura#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
